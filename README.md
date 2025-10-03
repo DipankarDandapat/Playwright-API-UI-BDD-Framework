@@ -166,8 +166,8 @@ Before you begin, ensure you have:
 #### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/playwright-bdd-framework.git
-cd playwright-bdd-framework
+git clone https://github.com/DipankarDandapat/Playwright-API-UI-BDD-Framework.git
+cd Playwright-API-UI-BDD-Framework
 ```
 
 #### **2. Create Virtual Environment**
@@ -219,10 +219,10 @@ python run_tests.py --type smoke --headless
 
 ```bash
 # Build Docker image
-docker build -t playwright-bdd-framework .
+docker build -t Playwright-API-UI-BDD-Framework .
 
 # Run tests in container
-docker run --rm -v $(pwd)/reports:/app/reports playwright-bdd-framework
+docker run --rm -v $(pwd)/reports:/app/reports Playwright-API-UI-BDD-Framework
 ```
 
 ---
