@@ -1,0 +1,13 @@
+{
+  "valid_user_details": {
+    "first_name": "Test",
+    "last_name": "User",
+    "email": "test_user_behave@example.com",
+    "password": "Password123!",
+    "birth_day": "1",
+    "birth_month": "Jan",
+    "birth_year": "1990",
+    "gender": "2" 
+  }
+}
+

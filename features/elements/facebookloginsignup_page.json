@@ -1,0 +1,17 @@
+{
+  "email": "//input[@id='email']",
+  "password": "//input[@id='pass']",
+  "loginButton": "//button[@type='submit']",
+  "firstname": "input[name=\"firstname\"]",
+  "lastname": "input[name=\"lastname\"]",
+  "reg_email__": "input[name=\"reg_email__\"]",
+  "reg_passwd__": "input[name=\"reg_passwd__\"]",
+  "day": "select[name=\"birthday_day\"]",
+  "month": "select[name=\"birthday_month\"]",
+  "year": "select[name=\"birthday_year\"]",
+  "gender_female": "input[type=\"radio\"][value=\"1\"]",
+  "gender_male": "input[type=\"radio\"][value=\"2\"]",
+  "gender_custom": "input[type=\"radio\"][value=\"-1\"]",
+  "websubmit": "button[name=\"websubmit\"]"
+}
+

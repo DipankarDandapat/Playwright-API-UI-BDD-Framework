@@ -1,0 +1,16 @@
+playwright==1.40.0
+behave==1.2.6
+requests==2.31.0
+faker==20.1.0
+pyyaml==6.0.1
+allure-behave
+python-dotenv==1.0.0
+
+# Install playwright browsers after pip install
+# Run: playwright install
+
+jinja2
+matplotlib
+seaborn
+
+
