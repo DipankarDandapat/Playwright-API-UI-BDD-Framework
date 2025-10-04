@@ -1,0 +1,440 @@
+{
+  "timestamp": "2025-10-04T18:08:53.877878",
+  "metrics": {
+    "summary": {
+      "total_scenarios": 33,
+      "passed_scenarios": 29,
+      "failed_scenarios": 4,
+      "skipped_scenarios": 0,
+      "scenario_pass_rate": 87.88,
+      "total_features": 2,
+      "passed_features": 0,
+      "failed_features": 2,
+      "feature_pass_rate": 0.0,
+      "total_duration": 14.6,
+      "avg_scenario_duration": 0.44
+    },
+    "detailed_scenarios": [
+      {
+        "name": "Get all todos from FreeAPI",
+        "status": "failed",
+        "duration": 1.453,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Create a new todo via FreeAPI",
+        "status": "passed",
+        "duration": 0.117,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Retrieve specific todo by ID",
+        "status": "passed",
+        "duration": 0.104,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Update todo information",
+        "status": "passed",
+        "duration": 0.101,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Toggle todo completion status",
+        "status": "passed",
+        "duration": 0.107,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Delete todo",
+        "status": "passed",
+        "duration": 0.133,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Filter todos by query parameters",
+        "status": "passed",
+        "duration": 0.043,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Search todos by query string",
+        "status": "passed",
+        "duration": 0.064,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Create todo with invalid data",
+        "status": "passed",
+        "duration": 0.056,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Get todo with invalid ID",
+        "status": "passed",
+        "duration": 0.038,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Update non-existent todo",
+        "status": "passed",
+        "duration": 0.055,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Delete non-existent todo",
+        "status": "passed",
+        "duration": 0.03,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Validate FreeAPI todos response times",
+        "status": "passed",
+        "duration": 0.063,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Validate todo response data types and structure",
+        "status": "passed",
+        "duration": 0.093,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Get all users from API",
+        "status": "failed",
+        "duration": 0.593,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Create a new user via API",
+        "status": "passed",
+        "duration": 1.124,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Retrieve specific user by ID",
+        "status": "passed",
+        "duration": 0.591,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Update user information",
+        "status": "passed",
+        "duration": 1.298,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Delete user",
+        "status": "failed",
+        "duration": 0.942,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get all posts from API",
+        "status": "passed",
+        "duration": 0.166,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Create a new post",
+        "status": "passed",
+        "duration": 0.389,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get posts by specific user",
+        "status": "passed",
+        "duration": 0.16,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get comments for a post",
+        "status": "passed",
+        "duration": 0.162,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Add comment to a post",
+        "status": "passed",
+        "duration": 0.436,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get all albums",
+        "status": "passed",
+        "duration": 0.857,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get photos from an album",
+        "status": "passed",
+        "duration": 0.217,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test invalid API endpoints",
+        "status": "passed",
+        "duration": 1.732,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API with invalid data",
+        "status": "failed",
+        "duration": 0.377,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Validate API response data types",
+        "status": "passed",
+        "duration": 0.203,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Validate API response times",
+        "status": "passed",
+        "duration": 0.595,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API pagination",
+        "status": "passed",
+        "duration": 1.1,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API filtering and searching",
+        "status": "passed",
+        "duration": 0.445,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Verify UI and API data consistency",
+        "status": "passed",
+        "duration": 0.76,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      }
+    ],
+    "detailed_features": [
+      {
+        "name": "Todos API Testing",
+        "status": "failed"
+      },
+      {
+        "name": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity",
+        "status": "failed"
+      }
+    ]
+  },
+  "raw_results": {
+    "scenarios": [
+      {
+        "name": "Get all todos from FreeAPI",
+        "status": "failed",
+        "duration": 1.453,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Create a new todo via FreeAPI",
+        "status": "passed",
+        "duration": 0.117,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Retrieve specific todo by ID",
+        "status": "passed",
+        "duration": 0.104,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Update todo information",
+        "status": "passed",
+        "duration": 0.101,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Toggle todo completion status",
+        "status": "passed",
+        "duration": 0.107,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Delete todo",
+        "status": "passed",
+        "duration": 0.133,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Filter todos by query parameters",
+        "status": "passed",
+        "duration": 0.043,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Search todos by query string",
+        "status": "passed",
+        "duration": 0.064,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Create todo with invalid data",
+        "status": "passed",
+        "duration": 0.056,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Get todo with invalid ID",
+        "status": "passed",
+        "duration": 0.038,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Update non-existent todo",
+        "status": "passed",
+        "duration": 0.055,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Delete non-existent todo",
+        "status": "passed",
+        "duration": 0.03,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Validate FreeAPI todos response times",
+        "status": "passed",
+        "duration": 0.063,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Validate todo response data types and structure",
+        "status": "passed",
+        "duration": 0.093,
+        "feature": "Todos API Testing"
+      },
+      {
+        "name": "Get all users from API",
+        "status": "failed",
+        "duration": 0.593,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Create a new user via API",
+        "status": "passed",
+        "duration": 1.124,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Retrieve specific user by ID",
+        "status": "passed",
+        "duration": 0.591,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Update user information",
+        "status": "passed",
+        "duration": 1.298,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Delete user",
+        "status": "failed",
+        "duration": 0.942,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get all posts from API",
+        "status": "passed",
+        "duration": 0.166,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Create a new post",
+        "status": "passed",
+        "duration": 0.389,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get posts by specific user",
+        "status": "passed",
+        "duration": 0.16,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get comments for a post",
+        "status": "passed",
+        "duration": 0.162,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Add comment to a post",
+        "status": "passed",
+        "duration": 0.436,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get all albums",
+        "status": "passed",
+        "duration": 0.857,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Get photos from an album",
+        "status": "passed",
+        "duration": 0.217,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test invalid API endpoints",
+        "status": "passed",
+        "duration": 1.732,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API with invalid data",
+        "status": "failed",
+        "duration": 0.377,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Validate API response data types",
+        "status": "passed",
+        "duration": 0.203,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Validate API response times",
+        "status": "passed",
+        "duration": 0.595,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API pagination",
+        "status": "passed",
+        "duration": 1.1,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Test API filtering and searching",
+        "status": "passed",
+        "duration": 0.445,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      },
+      {
+        "name": "Verify UI and API data consistency",
+        "status": "passed",
+        "duration": 0.76,
+        "feature": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity"
+      }
+    ],
+    "features": [
+      {
+        "name": "Todos API Testing",
+        "status": "failed"
+      },
+      {
+        "name": "Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity",
+        "status": "failed"
+      }
+    ]
+  }
+}

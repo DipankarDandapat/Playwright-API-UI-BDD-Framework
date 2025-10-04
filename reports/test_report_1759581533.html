@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { background-color: #f8f9fa; padding: 20px; border-radius: 5px; }
+        .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 20px 0; }
+        .metric-card { background-color: #fff; border: 1px solid #dee2e6; border-radius: 5px; padding: 15px; text-align: center; }
+        .metric-value { font-size: 2em; font-weight: bold; }
+        .metric-label { color: #6c757d; }
+        .passed { color: #28a745; }
+        .failed { color: #dc3545; }
+        .skipped { color: #ffc107; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #dee2e6; padding: 8px; text-align: left; }
+        th { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Test Execution Report</h1>
+        <p>Generated on: 2025-10-04 18:08:53</p>
+    </div>
+    
+    <div class="metrics">
+        <div class="metric-card">
+            <div class="metric-value passed">29</div>
+            <div class="metric-label">Passed</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value failed">4</div>
+            <div class="metric-label">Failed</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value skipped">0</div>
+            <div class="metric-label">Skipped</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">87.88%</div>
+            <div class="metric-label">Pass Rate</div>
+        </div>
+        <div class="metric-card">
+            <div class="metric-value">14.6s</div>
+            <div class="metric-label">Total Duration</div>
+        </div>
+    </div>
+    
+    <h2>Scenario Details</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Scenario</th>
+                <th>Status</th>
+                <th>Duration</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Get all todos from FreeAPI</td>
+                <td class="failed">failed</td>
+                <td>1.453s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Create a new todo via FreeAPI</td>
+                <td class="passed">passed</td>
+                <td>0.117s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Retrieve specific todo by ID</td>
+                <td class="passed">passed</td>
+                <td>0.104s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Update todo information</td>
+                <td class="passed">passed</td>
+                <td>0.101s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Toggle todo completion status</td>
+                <td class="passed">passed</td>
+                <td>0.107s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Delete todo</td>
+                <td class="passed">passed</td>
+                <td>0.133s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Filter todos by query parameters</td>
+                <td class="passed">passed</td>
+                <td>0.043s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Search todos by query string</td>
+                <td class="passed">passed</td>
+                <td>0.064s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Create todo with invalid data</td>
+                <td class="passed">passed</td>
+                <td>0.056s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Get todo with invalid ID</td>
+                <td class="passed">passed</td>
+                <td>0.038s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Update non-existent todo</td>
+                <td class="passed">passed</td>
+                <td>0.055s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Delete non-existent todo</td>
+                <td class="passed">passed</td>
+                <td>0.03s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Validate FreeAPI todos response times</td>
+                <td class="passed">passed</td>
+                <td>0.063s</td>
+            </tr>
+            
+            <tr>
+                <td>Todos API Testing</td>
+                <td>Validate todo response data types and structure</td>
+                <td class="passed">passed</td>
+                <td>0.093s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get all users from API</td>
+                <td class="failed">failed</td>
+                <td>0.593s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Create a new user via API</td>
+                <td class="passed">passed</td>
+                <td>1.124s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Retrieve specific user by ID</td>
+                <td class="passed">passed</td>
+                <td>0.591s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Update user information</td>
+                <td class="passed">passed</td>
+                <td>1.298s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Delete user</td>
+                <td class="failed">failed</td>
+                <td>0.942s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get all posts from API</td>
+                <td class="passed">passed</td>
+                <td>0.166s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Create a new post</td>
+                <td class="passed">passed</td>
+                <td>0.389s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get posts by specific user</td>
+                <td class="passed">passed</td>
+                <td>0.16s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get comments for a post</td>
+                <td class="passed">passed</td>
+                <td>0.162s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Add comment to a post</td>
+                <td class="passed">passed</td>
+                <td>0.436s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get all albums</td>
+                <td class="passed">passed</td>
+                <td>0.857s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Get photos from an album</td>
+                <td class="passed">passed</td>
+                <td>0.217s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Test invalid API endpoints</td>
+                <td class="passed">passed</td>
+                <td>1.732s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Test API with invalid data</td>
+                <td class="failed">failed</td>
+                <td>0.377s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Validate API response data types</td>
+                <td class="passed">passed</td>
+                <td>0.203s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Validate API response times</td>
+                <td class="passed">passed</td>
+                <td>0.595s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Test API pagination</td>
+                <td class="passed">passed</td>
+                <td>1.1s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Test API filtering and searching</td>
+                <td class="passed">passed</td>
+                <td>0.445s</td>
+            </tr>
+            
+            <tr>
+                <td>Comprehensive API Testing As a QA engineer I want to test REST APIs thoroughly So that I can ensure API functionality and data integrity</td>
+                <td>Verify UI and API data consistency</td>
+                <td class="passed">passed</td>
+                <td>0.76s</td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
+        

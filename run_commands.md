@@ -35,13 +35,6 @@ pip install -r requirements.txt
 playwright install
 ```
 
-### 3. Setup Environment
-
-Creates directories and installs browsers:
-
-```bash
-python run_tests.py --setup
-```
 
 ---
 
